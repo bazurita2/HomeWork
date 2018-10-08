@@ -81,7 +81,7 @@ int main()
             else
             {   cout<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl;
 
-                cout<<"\t***********(( EL USUARIO O CONTRASEÑA SON INCORRECTOS )) **********"<<endl<<endl<<endl;
+                cout<<"\t***********(( EL USUARIO O CONTRASEï¿½A SON INCORRECTOS )) **********"<<endl<<endl<<endl;
                 cout<<"\t*******************((  INTENTE NUEVAMENTE )) **********************"<<endl;
                 cont++;
                 getch();
