@@ -4,8 +4,8 @@ package ec.edu.espe.ImpuestoALaRenta.operation;
 import ec.edu.espe.ImpuestoALaRenta.util.Validations;
 
 /**
- *
- * @author 
+ * 
+ * @author bryan
  */
 public class SalaryCalc {
     private float monthlySalary;

@@ -4,9 +4,10 @@ import ec.edu.espe.ImpuestoALaRenta.util.Validations;
 import ec.edu.espe.ImpuestoALaRenta.operation.SalaryCalc;
 import ec.edu.espe.ImpuestoALaRenta.operation.ImpuestoALaRentaCalc;
 import java.util.Scanner;
+
 /**
- *
- * @author 
+ * 
+ * @author bryan
  */
 public class ImpuestoALaRentaMain {
 
@@ -74,7 +75,7 @@ public class ImpuestoALaRentaMain {
                     System.out.println("Su ingreso despues de la aportación persona obligatoria al IESS al mes es: "+salaryCalc.netMonthlySalary());
                     System.out.println("Su ingreso anual neto es: "+salaryCalc.netAnualySalary());
                     taxCalc = new ImpuestoALaRentaCalc();
-                    taxToPay = taxCalc.ImpuestoALaRentaCalc(salaryCalc.getNetAnualySalary());
+                    taxToPay = taxCalc.(salaryCalc.getNetAnualySalary());
                     System.out.println("El valor del impuesto a pagar es: "+taxToPay);
                     System.out.println("Deseas realizar otro cálculo?");
                     System.out.println("1. Si");

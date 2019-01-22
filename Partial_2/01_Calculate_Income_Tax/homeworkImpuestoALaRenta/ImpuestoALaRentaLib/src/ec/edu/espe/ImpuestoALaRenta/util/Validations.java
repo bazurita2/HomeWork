@@ -6,8 +6,8 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
- *
- * @author 
+ * 
+ * @author bryan
  */
 public class Validations {
     private static Scanner scanner = new Scanner(System.in);

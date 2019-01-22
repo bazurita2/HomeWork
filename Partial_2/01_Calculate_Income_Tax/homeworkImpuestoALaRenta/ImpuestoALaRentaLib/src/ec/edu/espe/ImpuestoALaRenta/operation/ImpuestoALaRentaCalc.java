@@ -6,8 +6,11 @@ import java.util.List;
 import ec.edu.espe.ImpuestoALaRenta.util.Validations;
 
 /**
- *
- * @author 
+ * 
+ * @author bryan
+ * @version 0.9
+ * @tools template settings user = bryan
+ * @since 0.1
  */
 public class ImpuestoALaRentaCalc {
     private float taxToPay;
@@ -22,6 +25,13 @@ public class ImpuestoALaRentaCalc {
         valorFraccionExcedente = 0F;
         fraccionBasica = 0F;
     }
+    
+    /**This method compute Impuesto a la renta
+     * 
+     * @param netAnualSalary
+     * your salary in dollars, monthly
+     * @return the impuesto a la renta by year 2018
+     */
     public float ImpuestoALaRentaCalc(float netAnualSalary)
     {
         //Ubicacion en la tabla
